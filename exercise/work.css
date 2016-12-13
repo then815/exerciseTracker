@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:95%;
+	margin:auto;
+	background-color:#000000;
+}
+td{
+	width:auto;
+}
+table {
+	width:100%;
+	margin:auto;
+	margin-bottom:5%;
+	background-color:#000000;
+	color:#ffffff;
+}
+th {
+	text-align:center;
+	}
+h3 {
+	color:#FF3;
+}
+.button{
+	width:25%;
+	margin-top:5%;
+	margin:auto;
+	margin-bottom:30px;
+	
+}
+.previous{
+	font-size:.75em;
+	font-style:italic;
+	padding-left:5px;
+	}
+.record{
+	font-style:italic;
+	color:#ff3;
+	}
+.weight{
+	width:30px;
+}
+.set {
+	text-align:left;
+	padding-right:15px;
+	}
+.wtHd {
+	padding-right:5px;
+	}
+.reps {
+	padding-right:5px;
+	}				
+	
+	
+	
+
+@media only screen and (min-width: 600px){
+	body{
+		max-width: 660px;
+	}
+	
+
+}
