@@ -2,7 +2,7 @@
 // Create a connection
 $message = '';
 
-$db = new MySQLi('localhost','then815_workout','Exercise1234','then815_workout');
+$db = new MySQLi('SERVER','DB NAME','DBPASS','DB');
 if($db->connect_error){
     $message = $db->connect_error;
 }else{
